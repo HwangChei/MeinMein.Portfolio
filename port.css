@@ -224,14 +224,14 @@ section p {
 }
 
 .experience-content h3 {
-  color: #ccd6f6;
+  color: #657abd;
   font-size: 1.3rem;
   margin-bottom: 8px;
   font-family: cursive;  /* Ensures experience headings are in cursive */
 }
 
-.experience-content h3 span {
-  color: #64ffda;
+.experience-content h4 {
+  color: #2ac8a3;
 }
 
 .experience-content p {
