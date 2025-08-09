@@ -2,8 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <!--for all devices -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Mein Mein</title>
+  <style>
+  @media (min-width: 600px) {
+    body {
+      font-size: 1.2em;
+    }
+    .sidebar {
+      width: 250px;
+    }
+    main {
+      margin-left: 250px;
+    }
+    
+  }</style>
   <link rel="icon" href="https://sdzwildlifeexplorers.org/sites/default/files/2017-07/pandas-closeup.jpg">
   <link rel="stylesheet" href="port.css" />
 </head>
@@ -17,7 +31,7 @@
     </div>
 
     <!-- Intro/Bio -->
-    <p id="intro">🐼I am studying CS50 Intro to AI with Python.🐼</p>
+    <p id="intro">🐼I am studying CS50W, and CS50AI.🐼</p>
 
     <!-- Navigation links -->
     <nav class="nav-links" id="navLinks">
