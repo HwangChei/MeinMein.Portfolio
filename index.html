@@ -2,8 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <!--for all devices -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Mein Mein</title>
+  <style>
+  @media (min-width: 600px) {
+    body {
+      font-size: 1.2em;
+    }
+    .sidebar {
+      width: 250px;
+    }
+    main {
+      margin-left: 250px;
+    }
+    
+  }</style>
   <link rel="icon" href="https://sdzwildlifeexplorers.org/sites/default/files/2017-07/pandas-closeup.jpg">
   <link rel="stylesheet" href="port.css" />
 </head>
@@ -17,7 +31,7 @@
     </div>
 
     <!-- Intro/Bio -->
-    <p id="intro">🐼I am studying CS50W, CS50AI.🐼</p>
+    <p id="intro">🐼Studying CS50W, and CS50AI.🐼</p>
 
     <!-- Navigation links -->
     <nav class="nav-links" id="navLinks">
@@ -57,7 +71,19 @@
       <section id="experience">
         <h2><!-- Experience name later--></h2>
         <div class="experience-item exp">
-          <div class="experience-date">2025/07/15</div>
+        <div class="experience-date">2025/08/11-Currently</div>
+          <div class="experience-content">
+            <h3>CS50W<h4>Doing it....</h4></h3>
+            <p>
+              <!--<img src="..." alt="..." height="350" width="450"/>-->
+              <br />
+              <br />
+              <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank">Panda</a>
+            </p>
+          </div>
+          </div>
+        <div class="experience-item exp">
+          <div class="experience-date">2025/05/28-2025/07/15</div>
           <div class="experience-content">
             <h3>CS50 Python<h4>Finished CS50P with all of its problem sets as well as the final project</h4></h3>
             <p>
@@ -69,17 +95,7 @@
             </p>
           </div>
         </div>
-        <div class="experience-date">Soon...</div>
-          <div class="experience-content">
-            <h3>Soon... <h4>Soon...</h4></h3>
-            <p>
-              <!--<img src="..." alt="..." height="350" width="450"/>-->
-              <br />
-              ...
-              <br />
-              <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank">Panda</a>
-            </p>
-          </div>
+        
       </section>
     </section>
 
@@ -100,4 +116,3 @@
   <script src="scripts.js"></script>
 </body>
 </html>
-
