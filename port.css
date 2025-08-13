@@ -28,7 +28,7 @@ a {
 .sidebar {
   font-family: cursive;              /* Cursive font for sidebar */
   background: transparent;           /* Transparent background */
-  width: 50%;
+  width: 20%;
   min-width: 300px;                  /* Won’t go smaller than this */
   padding: 20px 30px;                /* Inner spacing */
   box-sizing: border-box;            /* Includes padding in total width */
@@ -39,7 +39,7 @@ a {
 /* Top part of NAME with title and toggle button */
 .sidebar-header {
   align-items: center;              /* Vertically centers the elements */
-  margin-top: 60px;                 /* Space above */
+  margin-top: 70px;                 /* Space above */
   display: flex;
   text-align: center;
   margin-left: 5%;
