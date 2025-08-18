@@ -10,7 +10,7 @@ body {
   background: linear-gradient(        /* Background gradient split */
     to right,
     #0a0d12 5%,
-    #274778 25%,
+    #243858 25%,
     #152846 40%,
     #0a0d12 100%
   );
@@ -231,7 +231,7 @@ section p {
 }
 
 .experience-content h4 {
-  color: #2ac8a3;
+  color: #9cc0b7;
 }
 
 .experience-content p {
