@@ -9,10 +9,10 @@ body {
   height: 100vh;                      /* Full viewport height */
   background: linear-gradient(        /* Background gradient split */
     to right,
-    #1b9986 5%,
-    #44beab 20%,
-    #122645 40%,
-    #122645 100%
+    #0a0d12 5%,
+    #274778 25%,
+    #152846 40%,
+    #0a0d12 100%
   );
   font-family: 'Inter', sans-serif;  /* Sets default font */
   color: #ccd6f6;                     /* Light text color */
@@ -49,13 +49,13 @@ a {
 .sidebar-header h1 {
   font-size: 2.5rem;                /* Large font size */
   font-weight: 700;                 /* Bold text */
-  color: #20324e;                   /* Deep navy text */
+  color: #6d89b6;                   /* Deep navy text */
   margin: 0;                        /* Removes default margin */
 }
 
 /* intro as in bio */
 #intro {
-  color: #20324e;
+  color: #6c87b1;
   font: icon;
   margin-left: 5%;
   font-size: large;
@@ -91,7 +91,7 @@ a {
   margin-left: 10%;
   font-weight: 600;
   font-size: 1.1rem;
-  color: #0a192f;
+  color: #7c90af;
   padding: 8px 12px;
   border-radius: 6px;
   transition: background-color 0.3s ease; /* Smooth hover effect */
@@ -100,8 +100,8 @@ a {
 /* Active or hovered link */
 .nav-links a:hover,
 .nav-links a.active {
-  background-color: #0a192f;
-  color: #64ffda;
+  background-color: #7c90af;
+  color: #485285;
 }
 
 /* Main content area */
